@@ -42,3 +42,7 @@ $email = new eMail();
 $email = new christmasEmailBody($email);
 $email = new newYearEmailBody($email);
 $email->loadBody();
+
+// OR
+
+echo (new newYearEmailBody(new christmasEmailBody(new eMail())))->loadBody();
