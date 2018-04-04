@@ -5,3 +5,5 @@
 # References
 
 https://laracasts.com/series/design-patterns-in-php
+
+https://github.com/thjanssen/Stackify-OopInheritance
